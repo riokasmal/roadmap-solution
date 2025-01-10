@@ -1,0 +1,77 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  nav {
+    flex-grow: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 2rem;
+    padding: 0rem 2rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 2rem;
+  }
+
+  .logo img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem auto;
+  }
+
+  .intro h1 {
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  .intro p {
+    font-size: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 10rem 0rem 10rem;
+  }
+
+  .reviews h2 {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 0rem 10rem 0rem 10rem;
+  }
+
+  .result {
+    display: flex;
+    justify-content: center;
+  }
+
+  .result blockquote {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 20px;
+  }
